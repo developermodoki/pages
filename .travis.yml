@@ -1,5 +1,6 @@
-language:"python"
-python: "nightly"
+language: python
+python: 
+  - "nightly"
 install :
   - pip install mkdocs-material
 script :
