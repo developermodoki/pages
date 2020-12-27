@@ -7,7 +7,7 @@ script :
  - mkdocs build
 deploy :
   - provider: pages
-    repo: devlopermodoki/pages
+    repo: developermodoki/pages
     skip_cleanup: true
     github_token: $DEPROY
     keep_history: false
