@@ -1,6 +1,5 @@
 language:"python"
-python:
-  - "nightly"
+python: "nightly"
 install :
   - pip install mkdocs-material
 script :
@@ -9,7 +8,7 @@ deploy :
   - provider: pages
     repo: devlopermodoki/pages
     skip_cleanup: true
-    github_token: $GITHUB_TOKEN
+    github_token: $DEPROY
     keep_history: false
     local_dir: ./site
     target_branch: page
