@@ -1,0 +1,20 @@
+site_name: developermodoki's Pages
+
+theme:
+    name: material
+    language: ja
+    logo: img/icon.ico
+    favicon: img/icon.ico
+    icon:
+      repo: fontawesome/brands/github
+
+nav:
+    - Home: index.md
+    - Blog:
+        - このブログについて: blog.md
+        - 2020年12月27日 : 2020-12-27.md
+    - 作者について : about.md
+    - 相互リンク: sougo.md
+
+extra_css:
+    - css/main.css
