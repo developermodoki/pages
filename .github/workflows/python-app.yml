@@ -40,9 +40,9 @@ jobs:
           ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
           echo "${{ secrets.DEPLOY_ACTION }}" > ~/.ssh/id_rsa
           chmod 400 ~/.ssh/id_rsa
-          ssh-keygen -R github.com
     - name: Deploy
       run: |
+          ssh-keygen -R github.com
           git config --local user.name "${{ secrets.USER_NAME }}"
           git config --local user.email "${{ secrets.GITHUB_EMAIL }}"
           git remote set-url origin git@github.com:developermodoki/pages.git
