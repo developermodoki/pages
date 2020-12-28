@@ -48,4 +48,4 @@ jobs:
           git remote set-url origin git@github.com:developermodoki/pages.git
           git add site
           git commit -m "Update"
-          git push origin page
+          git push origin HEAD:page
